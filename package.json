@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.126",
-    "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -42,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^19.0.10",
     "tailwindcss": "^3.4.17"
   }
 }
