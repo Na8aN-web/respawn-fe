@@ -1,7 +1,12 @@
+import Navbar from "./components/Navbar";
+import Home from "./pages/home/Home";
+
 function App() {
   return (
-    <div className="text-center">
-      Welcome to respawn
+    <div className="">
+      <Navbar />
+
+      <Home />
     </div>
   );
 }
