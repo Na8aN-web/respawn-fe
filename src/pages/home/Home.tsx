@@ -8,10 +8,31 @@ import Platform from "../../components/Platform";
 import Sponsor from "../../components/Sponsor";
 import Started from "../../components/Started";
 import Support from "../../components/Support";
+import Navbar from "../authentication/components/Navbar";
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate();
+
+  // Handler for signup navigation
+  const handleSignupClick = () => {
+    console.log('Navigate to signup page');
+    navigate('/signup');
+  };
+
+    // Handler for login navigation
+    const handleLoginClick = () => {
+      console.log('Navigate to login page');
+      navigate('/login');
+    };
+
   return (
     <div className="bg-[#1f2a38]">
+      <Navbar
+        currentPage="landing"
+        onSignupClick={handleSignupClick}
+        onLoginClick={handleLoginClick}
+      />
       <Homeheader />
       <Sponsor />
       <Discover />
