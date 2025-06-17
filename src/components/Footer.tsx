@@ -12,9 +12,9 @@ const Footer = () => {
                     <span className="w-[100%] h-[0.1px] bg-[#D9D9D9]"></span>
                     <span className='text-xs'>Social media</span>
                     <span className='flex gap-[1rem] text-xl'>
-                        <FaInstagram />
-                        <FaXTwitter />
-                        <CiLinkedin />
+                        <img src='ig.png' alt='instagram' />
+                        <img src='x.png' alt='x' />
+                        <img src='linkedin.png' alt='instagram' />
                     </span>
                 </div>
 
