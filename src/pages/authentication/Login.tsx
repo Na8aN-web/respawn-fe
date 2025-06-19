@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Eye, EyeOff } from 'lucide-react';
-import Navbar from './components/Navbar';
+import Navbar from '../../components/Navbar';
 import { useNavigate } from 'react-router-dom';
 
 interface FormData {

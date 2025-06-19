@@ -1,14 +1,14 @@
-import Arena from "../../components/Arena";
-import Discover from "../../components/Discover";
-import Feedback from "../../components/Feedback";
+import Arena from "./components/Arena";
+import Discover from "./components/Discover";
+import Feedback from "./components/Feedback";
 import Footer from "../../components/Footer";
-import Homeheader from "../../components/Homeheader";
-import Mobile from "../../components/Mobile";
-import Platform from "../../components/Platform";
-import Sponsor from "../../components/Sponsor";
-import Started from "../../components/Started";
-import Support from "../../components/Support";
-import Navbar from "../authentication/components/Navbar";
+import Homeheader from "./components/Homeheader";
+import Mobile from "./components/Mobile";
+import Platform from "./components/Platform";
+import Sponsor from "./components/Sponsor";
+import Started from "./components/Started";
+import Support from "./components/Support";
+import Navbar from "../../components/Navbar";
 import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
@@ -34,7 +34,9 @@ const Home = () => {
         onLoginClick={handleLoginClick}
       />
       <Homeheader />
+      <div className="my-12">
       <Sponsor />
+      </div>
       <Discover />
       <Arena />
       <Platform />
