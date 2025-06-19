@@ -16,3 +16,21 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+/* Optional: Pause on hover */
+.scroll-container:hover {
+  animation-play-state: paused;
+}
