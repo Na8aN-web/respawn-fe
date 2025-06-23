@@ -17,14 +17,14 @@ const Homeheader = () => {
                         and real-time player connections.
                     </p>
                     <div className="btns flex gap-[2rem]">
-                        <button className="border border-[#7C3AED] text-white sm:text-[16px] text-[12px] bg-[#7C3AED] rounded py-[0.5rem] px-[1rem]">Get started</button>
+                        <button className="border border-[#7C3AED] text-white sm:text-[20px] text-[15px] bg-[#7C3AED] rounded py-[0.5rem] px-[1rem]">Get started</button>
                         {/* <button><BsArrowUpRightSquareFill /></button> */}
-                        <button className="border border-[#7C3AED] text-white sm:text-[16px] text-[12px] rounded px-[1rem] flex items-center gap-1">
+                        <button className="border border-[#7C3AED] text-white sm:text-[20px] text-[15px] rounded px-[1rem] flex items-center gap-1">
                             Access Tournaments {RiArrowRightUpLine({}) as JSX.Element}
                         </button>
                     </div>
                     <div className="flex items-center my-4">
-                        <img src="gamers.png" alt="trusted gamers" /> <p>Trusted by over 1,000+ gamers</p>
+                        <img src="gamers.png" className="w-[100px]" alt="trusted gamers" /> <p className="text-[14px]">Trusted by over 1,000+ gamers</p>
                     </div>
                 </div>
                 <GamingTournamentCarousel />

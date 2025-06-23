@@ -24,7 +24,7 @@ const Platform = () => {
          <section className="flex flex-col justify-center gap-[3rem] py-[100px] md:py-[10rem] px-[20px] md:px-[80px] text-white">
             <h1 className="md:text-[32px] text-[24px] mb-2 md:mb-16 font-medium text-center ">The Number <span className="text-[#D0BFED]">#1 Gaming Community Platform</span> Worldwide</h1>
 
-            <div className="flex md:flex-row items-center flex-col justify-between gap-[2rem] sm:text-xs text-[0.5rem]">
+            <div className="flex md:flex-row items-center flex-col justify-between gap-[2rem] sm:text-xs text-[12px]">
                 {platformData.map((item, index) => (
                     <div key={index} className="flex max-w-[400px] flex-col gap-[32px] md:gap-[1rem]">
                         <div className="flex gap-[1rem]">
