@@ -10,7 +10,7 @@ const Mobile = () => {
                     Level up your game with <br />
                     the <span className="text-[#7C3AED]">Respawn </span> Mobile App
                 </h1>
-                <p className="sm:text-[16px] text-[0.5rem]">
+                <p className="sm:text-[16px] text-[12px]">
                     Bring the power of Respawn with you, wherever you go! Connect, <br />
                     compete, and conquer all from the palm of your hand.
                 </p>

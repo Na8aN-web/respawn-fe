@@ -34,9 +34,9 @@ const Home = () => {
         onLoginClick={handleLoginClick}
       />
       <Homeheader />
-      <div className="my-12">
+      {/* <div className="my-12">
       <Sponsor />
-      </div>
+      </div> */}
       <Discover />
       <Arena />
       <Platform />

@@ -16,7 +16,7 @@ const Support = () => {
                 <h1 className="font-semibold text-xl sm:text-[40px] text-center leading-normal text-[#D0BFED]">
                     Have any Questions? We're <br/> Here to Help you
                 </h1>
-                <div className="sm:text-[16px] text-[0.5rem] flex gap-[1rem]">
+                <div className="sm:text-[16px] text-[12px] flex gap-[1rem]">
                     <span className="flex gap-1 items-center">
                         {IoMdCheckmarkCircleOutline({}) as JSX.Element} Instant service provided
                     </span>
@@ -24,7 +24,7 @@ const Support = () => {
                         {IoMdCheckmarkCircleOutline({}) as JSX.Element} Real 24/7 Technical Support
                     </span>
                 </div>
-                <button className="text-white sm:text-[16px] text-[0.5rem] rounded sm:py-[0.5rem] py-1 px-[1.3rem] bg-[#7C3AED]">
+                <button className="text-white sm:text-[20px] text-[15px] rounded sm:py-[0.5rem] py-1 px-[1.3rem] bg-[#7C3AED]">
                     Contact Us
                 </button>
             </div>

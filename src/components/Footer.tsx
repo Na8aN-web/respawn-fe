@@ -37,7 +37,7 @@ const Footer = () => {
                     <li className='leading-6'>Stay updated with the latest <br /> tournaments, news, and gaming tips!</li>
                     <li className='rounded overflow-hidden'>
                         <input type="text" placeholder='janedoe@gmail.com' className='p-[0.5rem]'/>
-                        <button className='p-[0.5rem] bg-[#7C3AED]'>Subscribe</button>
+                        <button className='p-[12.5px] bg-[#7C3AED]'>Subscribe</button>
                     </li>
                 </div>
             </div>
